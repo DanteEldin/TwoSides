@@ -951,7 +951,7 @@ MonoBehaviour:
   runMethodAfterText: 0
   methodTextNumber: -1
   finalTextNumber: 4
-  nextSceneName: Au_Party
+  nextSceneName: TITLE_Au_Party
 --- !u!1 &605116932
 GameObject:
   m_ObjectHideFlags: 0

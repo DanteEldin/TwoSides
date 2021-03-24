@@ -807,7 +807,7 @@ PrefabInstance:
     - target: {fileID: 744820458769483295, guid: 6486b6b1a1380294c92012ff5f3536e8,
         type: 3}
       propertyPath: nextSceneName
-      value: Swe_League
+      value: TITLE_Swe_League
       objectReference: {fileID: 0}
     - target: {fileID: 744820458769483295, guid: 6486b6b1a1380294c92012ff5f3536e8,
         type: 3}
@@ -1371,7 +1371,7 @@ PrefabInstance:
     - target: {fileID: 744820458769483295, guid: 6486b6b1a1380294c92012ff5f3536e8,
         type: 3}
       propertyPath: nextSceneName
-      value: Swe_League
+      value: TITLE_Swe_League
       objectReference: {fileID: 0}
     - target: {fileID: 744820458769483295, guid: 6486b6b1a1380294c92012ff5f3536e8,
         type: 3}
@@ -1766,7 +1766,7 @@ PrefabInstance:
     - target: {fileID: 744820458769483295, guid: 6486b6b1a1380294c92012ff5f3536e8,
         type: 3}
       propertyPath: nextSceneName
-      value: Swe_League
+      value: TITLE_Swe_League
       objectReference: {fileID: 0}
     - target: {fileID: 744820458769483295, guid: 6486b6b1a1380294c92012ff5f3536e8,
         type: 3}

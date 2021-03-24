@@ -651,7 +651,7 @@ PrefabInstance:
     - target: {fileID: 5647031896427060629, guid: 7d2dcccb29cd08c4c85e8d1134b1b6e7,
         type: 3}
       propertyPath: destroyAfterTime
-      value: 0.8
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 5647031896427060629, guid: 7d2dcccb29cd08c4c85e8d1134b1b6e7,
         type: 3}
@@ -661,7 +661,7 @@ PrefabInstance:
     - target: {fileID: 5647031896427060629, guid: 7d2dcccb29cd08c4c85e8d1134b1b6e7,
         type: 3}
       propertyPath: nextSceneName
-      value: Swe_Forest
+      value: TITLE_Swe_Forest
       objectReference: {fileID: 0}
     - target: {fileID: 7652215881501492514, guid: 7d2dcccb29cd08c4c85e8d1134b1b6e7,
         type: 3}
@@ -1337,7 +1337,7 @@ PrefabInstance:
     - target: {fileID: 5647031896427060629, guid: 7d2dcccb29cd08c4c85e8d1134b1b6e7,
         type: 3}
       propertyPath: destroyAfterTime
-      value: 0.7
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 7652215881501492514, guid: 7d2dcccb29cd08c4c85e8d1134b1b6e7,
         type: 3}

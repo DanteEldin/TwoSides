@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\Forest\Forest_Friend.cs" />
     <Compile Include="Assets\Scripts\Forest\Forest_TextMethods.cs" />
     <Compile Include="Assets\Scripts\Forest\FriendMove.cs" />
+    <Compile Include="Assets\Scripts\Forest\FriendMove_Multiple.cs" />
     <Compile Include="Assets\Scripts\League\General_TextMethods.cs" />
     <Compile Include="Assets\Scripts\League\League_Blast.cs" />
     <Compile Include="Assets\Scripts\League\League_Mark.cs" />

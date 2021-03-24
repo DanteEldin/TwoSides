@@ -5,21 +5,24 @@ using UnityEngine;
 public class FriendMove : MonoBehaviour
 {
     //Variables
-    bool moveNow = false;
-    Vector2 currentPointToMoveTo;
+    protected bool moveNow = false;
+    protected Vector2 currentPointToMoveTo;
     public float moveSpeed = 1.5f;
-
-    //Components
     public GameObject friendMoveTo;
+    int currentPointCount = 1;
+
+    //Events
+    public delegate void OnPointReachedMethod(int methodNumber);
+    public static OnPointReachedMethod PointReachedMethod;
 
     // Update
-    void Update()
+    protected virtual void Update()
     {
         Move();
     }
 
     //Move
-    void Move()
+    protected virtual void Move()
     {
         if (moveNow)
         {
@@ -27,6 +30,8 @@ public class FriendMove : MonoBehaviour
             if (transform.position == new Vector3(currentPointToMoveTo.x, currentPointToMoveTo.y, transform.position.z))
             {
                 moveNow = false;
+                PointReachedMethod?.Invoke(currentPointCount);
+                currentPointCount++;
             }
         }
     }

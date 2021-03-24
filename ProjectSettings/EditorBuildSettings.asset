@@ -14,14 +14,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Australia/Au_Party.unity
     guid: 39e54199794152b46acd171624c51eb1
-  - enabled: 1
-    path: Assets/Scenes/Sweden/Swe_League.unity
-    guid: 657b9d4e3300a9043b0eb70f02229f60
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Sweden/Swe_Soccer.unity
     guid: b5baa57afdd7eb7419f78f94f8df28a8
   - enabled: 1
-    path: Assets/Scenes/Sweden/Swe_Flight.unity
+    path: Assets/Scenes/Sweden/TITLE_Swe_Flight.unity
     guid: 3897552d03b92f6448c6e59c4a1bc9e3
   - enabled: 1
     path: Assets/Scenes/Sweden/Swe_Forest.unity
@@ -29,4 +29,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/End.unity
     guid: fd290a96df8ae704cacf44195926bc20
+  - enabled: 1
+    path: Assets/Scenes/TITLE_Start.unity
+    guid: 3ffc214321fc66c44a2565bb0459f869
+  - enabled: 1
+    path: Assets/Scenes/Sweden/TITLE_Swe_Forest.unity
+    guid: f4f5a5dbff4b45841a2292c48793f2cf
+  - enabled: 1
+    path: Assets/Scenes/Sweden/TITLE_Swe_League.unity
+    guid: 23cdce1f0a7244d419cc014afca7b2e8
+  - enabled: 1
+    path: Assets/Scenes/Sweden/TITLE_Swe_Soccer.unity
+    guid: aef1d0b3020f39d47a44a676509a7509
+  - enabled: 1
+    path: Assets/Scenes/Australia/TITLE_Au_Party.unity
+    guid: 556f9bd88a654f947a39bc047eb73fa2
+  - enabled: 1
+    path: Assets/Scenes/Australia/TITLE_Au_Pool.unity
+    guid: d19420168ad05a047bdc4e1c9fb2947d
+  - enabled: 1
+    path: Assets/Scenes/Sweden/Swe_League.unity
+    guid: 20692dff93c4e004ebdcb0a75beff0eb
   m_configObjects: {}
