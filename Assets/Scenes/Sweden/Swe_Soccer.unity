@@ -261,6 +261,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gravityEnabled: 0
+  sfxWin: {fileID: 11400000, guid: 6c0e1cb330b5dc543a43b204a3d8f25b, type: 2}
+  sfxLoss: {fileID: 11400000, guid: e62a29303db0f6a49b160bca9215f70a, type: 2}
 --- !u!1 &278438526
 GameObject:
   m_ObjectHideFlags: 0
@@ -818,6 +820,11 @@ PrefabInstance:
         type: 3}
       propertyPath: waitBetweenChars
       value: 0.165
+      objectReference: {fileID: 0}
+    - target: {fileID: 744820458769483295, guid: 6486b6b1a1380294c92012ff5f3536e8,
+        type: 3}
+      propertyPath: playAudio
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1394725670595865370, guid: 6486b6b1a1380294c92012ff5f3536e8,
         type: 3}
@@ -1383,6 +1390,11 @@ PrefabInstance:
       propertyPath: destroyAfterTime
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 744820458769483295, guid: 6486b6b1a1380294c92012ff5f3536e8,
+        type: 3}
+      propertyPath: playAudio
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1394725670595865370, guid: 6486b6b1a1380294c92012ff5f3536e8,
         type: 3}
       propertyPath: m_Name
@@ -1777,6 +1789,11 @@ PrefabInstance:
         type: 3}
       propertyPath: destroyAfterTime
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 744820458769483295, guid: 6486b6b1a1380294c92012ff5f3536e8,
+        type: 3}
+      propertyPath: playAudio
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1394725670595865370, guid: 6486b6b1a1380294c92012ff5f3536e8,
         type: 3}

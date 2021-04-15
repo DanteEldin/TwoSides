@@ -27,7 +27,8 @@ public class Player_League : MonoBehaviour
 
     //Components
     SpriteRenderer spriteRenderer;
-
+    [SerializeField] AudioHandler sfxShoot;
+    [SerializeField] AudioHandler sfxExplode;
 
     //Start
     void Start()
@@ -78,6 +79,8 @@ public class Player_League : MonoBehaviour
 
                 //change sprite
                 spriteRenderer.sprite = attackSprite;
+                //audio
+                sfxShoot.PlayAudio();
             }
         }
     }
@@ -109,6 +112,8 @@ public class Player_League : MonoBehaviour
                 canAttack = true;
                 GetComponent<Movement>().standardMovement = true;
                 GetComponent<Movement>().canMove = true;
+                //audio
+                sfxExplode.PlayAudio();
             }
         }
     }

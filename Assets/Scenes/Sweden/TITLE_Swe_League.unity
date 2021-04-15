@@ -508,6 +508,8 @@ MonoBehaviour:
   methodTextNumber: -1
   finalTextNumber: 1
   nextSceneName: Swe_League
+  playAudio: 1
+  typeAudio: {fileID: 11400000, guid: 68272eecf79ad884bba63b98b39ed0fe, type: 2}
 --- !u!114 &2058838568
 MonoBehaviour:
   m_ObjectHideFlags: 0

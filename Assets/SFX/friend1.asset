@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 462f90a07e3dc134da227b3772c7bf57, type: 3}
+  m_Name: friend1
+  m_EditorClassIdentifier: 
+  audioClips:
+  - {fileID: 8300000, guid: 4ba8d182a4b0fe24391422779bff2ad4, type: 3}
+  pitchRange: {x: 1, y: 1}
+  volumeRange: {x: 0.15, y: 0.15}
+  mixerGroup: {fileID: 24300002, guid: 98e63077903fe6a43ad5582775ca595d, type: 2}

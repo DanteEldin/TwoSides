@@ -20,6 +20,7 @@ public class MenuButton : MonoBehaviour
 
     //Components
     SpriteRenderer spriteRenderer;
+    [SerializeField] AudioHandler sfxSelect;
 
     //Start
     void Start()
@@ -41,11 +42,15 @@ public class MenuButton : MonoBehaviour
         if (Input.GetKeyDown(leftKey) && !Input.GetKeyDown(rightKey))
         {
             selectedType--;
+            //audio
+            sfxSelect.PlayAudio();
         }
         //right
         if (!Input.GetKeyDown(leftKey) && Input.GetKeyDown(rightKey))
         {
             selectedType++;
+            //audio
+            sfxSelect.PlayAudio();
         }
 
         //overflow

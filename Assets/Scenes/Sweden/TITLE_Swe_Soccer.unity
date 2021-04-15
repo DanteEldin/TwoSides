@@ -502,12 +502,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textNumber: 1
   textDrawNow: 1
-  waitBetweenChars: 0.06
-  destroyAfterTime: 1.5
+  waitBetweenChars: 0.08
+  destroyAfterTime: 1.2
   runMethodAfterText: 0
   methodTextNumber: -1
   finalTextNumber: 1
   nextSceneName: Swe_Soccer
+  playAudio: 1
+  typeAudio: {fileID: 11400000, guid: 68272eecf79ad884bba63b98b39ed0fe, type: 2}
 --- !u!114 &2058838568
 MonoBehaviour:
   m_ObjectHideFlags: 0

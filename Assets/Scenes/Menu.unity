@@ -156,6 +156,7 @@ MonoBehaviour:
   nextSceneName: TITLE_Start
   unselectedSprite: {fileID: 21300000, guid: b1de12389d8f27b48ba70962c67e9a21, type: 3}
   selectedSprite: {fileID: 21300000, guid: 0ca91d740df3ea74c88f0f562f41399e, type: 3}
+  sfxSelect: {fileID: 11400000, guid: 451b82ca9edf9fb42b5082844de64d13, type: 2}
 --- !u!212 &172793405
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -515,6 +516,7 @@ MonoBehaviour:
   nextSceneName: 
   unselectedSprite: {fileID: 21300000, guid: 9fcf28437c8848c48b52395dc9799c36, type: 3}
   selectedSprite: {fileID: 21300000, guid: d229f64b045c6ce4d9df2b64d60ed08a, type: 3}
+  sfxSelect: {fileID: 11400000, guid: 451b82ca9edf9fb42b5082844de64d13, type: 2}
 --- !u!212 &803729573
 SpriteRenderer:
   m_ObjectHideFlags: 0

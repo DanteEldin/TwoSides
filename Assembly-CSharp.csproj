@@ -63,6 +63,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AudioScripts\AudioHandler.cs" />
+    <Compile Include="Assets\AudioScripts\AudioRemover.cs" />
     <Compile Include="Assets\Scripts\Animation.cs" />
     <Compile Include="Assets\Scripts\Forest\Forest_Friend.cs" />
     <Compile Include="Assets\Scripts\Forest\Forest_TextMethods.cs" />

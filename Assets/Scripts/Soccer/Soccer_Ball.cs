@@ -15,6 +15,8 @@ public class Soccer_Ball : MonoBehaviour
 
     //Components
     Rigidbody2D rbody;
+    [SerializeField] AudioHandler sfxWin;
+    [SerializeField] AudioHandler sfxLoss;
 
     // Start
     void Start()
@@ -57,6 +59,8 @@ public class Soccer_Ball : MonoBehaviour
             rbody.velocity = opponentShot;
             //save text
             TextHandler.TextWrite?.Invoke(saveCheerText);
+            //audio
+            sfxLoss.PlayAudio();
         }
     }
 
@@ -74,6 +78,8 @@ public class Soccer_Ball : MonoBehaviour
 
                 //goal text
                 TextHandler.TextWrite?.Invoke(missCheerText);
+                //audio
+                sfxLoss.PlayAudio();
             }
             else if (collision.CompareTag("Goal"))
             {
@@ -84,6 +90,8 @@ public class Soccer_Ball : MonoBehaviour
 
                 //goal text
                 TextHandler.TextWrite?.Invoke(goalCheerText);
+                //audio
+                sfxWin.PlayAudio();
             }
         }
     }

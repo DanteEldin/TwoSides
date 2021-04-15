@@ -12,18 +12,6 @@ public class Party_Interacts : MonoBehaviour
     public delegate void OnPartyMoveTo(Vector2 moveTo);
     public static OnPartyMoveTo PartyMoveTo;
 
-    // Start
-    void Start()
-    {
-
-    }
-
-    // Update
-    void Update()
-    {
-        
-    }
-
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Mark") && !markHit)

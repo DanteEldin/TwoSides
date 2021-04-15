@@ -13,6 +13,8 @@ public class League_Mark : MonoBehaviour
     float lifeTimer = 0f;
     float offsetY = 1.2f;
 
+    [SerializeField] AudioHandler sfxJump;
+
     //Start
     void Start()
     {
@@ -63,6 +65,8 @@ public class League_Mark : MonoBehaviour
             {
                 creator.GetComponent<Player_League>().kickAttackMove = true;
                 creator.GetComponent<Player_League>().kickTarget = target;
+                //audio
+                sfxJump.PlayAudio();
             }
         }
         //Enemy Mark

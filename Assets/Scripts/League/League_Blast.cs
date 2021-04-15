@@ -18,7 +18,7 @@ public class League_Blast : MonoBehaviour
     //Components
     internal GameObject creator;
     Rigidbody2D rbody;
-
+    [SerializeField] AudioHandler sfxHit;
 
     //Start
     void Start()
@@ -60,8 +60,9 @@ public class League_Blast : MonoBehaviour
                 collision.GetComponent<League_Opponent>().markedBy = inst;
                 //deal damage
                 collision.gameObject.GetComponent<League_Opponent>().health -= damage;
-
                 Destroy(gameObject);
+                //audio
+                sfxHit.PlayAudio();
             }
         }
         //Hit Player
@@ -76,8 +77,9 @@ public class League_Blast : MonoBehaviour
                 collision.GetComponent<Player_League>().markedBy = inst;
                 //deal damage
                 collision.gameObject.GetComponent<Player_League>().health -= damage;
-
                 Destroy(gameObject);
+                //audio
+                sfxHit.PlayAudio();
             }
         }
 

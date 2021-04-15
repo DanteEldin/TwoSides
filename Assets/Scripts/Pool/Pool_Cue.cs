@@ -14,13 +14,9 @@ public class Pool_Cue : MonoBehaviour
     float rotationSpeed = 50f;
     float shootForce = 10f;
 
+    //Components
     internal GameObject whiteBall;
-
-    //Start
-    void Start()
-    {
-        
-    }
+    [SerializeField] AudioHandler sfxShoot;
 
     //Update
     void Update()
@@ -62,6 +58,8 @@ public class Pool_Cue : MonoBehaviour
             whiteBall.GetComponent<Pool_Ball>().rolling = true;
             whiteBall.GetComponent<Pool_WhiteBall>().cueSpawned = false;
             Destroy(gameObject);
+            //audio
+            sfxShoot.PlayAudio();
         }
     }
 }

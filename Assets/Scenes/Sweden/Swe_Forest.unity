@@ -914,6 +914,17 @@ PrefabInstance:
       propertyPath: finalTextNumber
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 5647031896427060629, guid: 7d2dcccb29cd08c4c85e8d1134b1b6e7,
+        type: 3}
+      propertyPath: playAudio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5647031896427060629, guid: 7d2dcccb29cd08c4c85e8d1134b1b6e7,
+        type: 3}
+      propertyPath: typeAudio
+      value: 
+      objectReference: {fileID: 11400000, guid: b99171eb729faee41ab2b985df858a34,
+        type: 2}
     - target: {fileID: 7652215881501492514, guid: 7d2dcccb29cd08c4c85e8d1134b1b6e7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1950,6 +1961,17 @@ PrefabInstance:
       propertyPath: finalTextNumber
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 5647031896427060629, guid: 7d2dcccb29cd08c4c85e8d1134b1b6e7,
+        type: 3}
+      propertyPath: playAudio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5647031896427060629, guid: 7d2dcccb29cd08c4c85e8d1134b1b6e7,
+        type: 3}
+      propertyPath: typeAudio
+      value: 
+      objectReference: {fileID: 11400000, guid: 21695c8c62c3a0a47ba1483fec0d67b9,
+        type: 2}
     - target: {fileID: 7652215881501492514, guid: 7d2dcccb29cd08c4c85e8d1134b1b6e7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4152,6 +4174,17 @@ PrefabInstance:
       propertyPath: destroyAfterTime
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 5647031896427060629, guid: 7d2dcccb29cd08c4c85e8d1134b1b6e7,
+        type: 3}
+      propertyPath: playAudio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5647031896427060629, guid: 7d2dcccb29cd08c4c85e8d1134b1b6e7,
+        type: 3}
+      propertyPath: typeAudio
+      value: 
+      objectReference: {fileID: 11400000, guid: 21695c8c62c3a0a47ba1483fec0d67b9,
+        type: 2}
     - target: {fileID: 7652215881501492514, guid: 7d2dcccb29cd08c4c85e8d1134b1b6e7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4503,6 +4536,17 @@ PrefabInstance:
       propertyPath: finalTextNumber
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 5647031896427060629, guid: 7d2dcccb29cd08c4c85e8d1134b1b6e7,
+        type: 3}
+      propertyPath: playAudio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5647031896427060629, guid: 7d2dcccb29cd08c4c85e8d1134b1b6e7,
+        type: 3}
+      propertyPath: typeAudio
+      value: 
+      objectReference: {fileID: 11400000, guid: b99171eb729faee41ab2b985df858a34,
+        type: 2}
     - target: {fileID: 7652215881501492514, guid: 7d2dcccb29cd08c4c85e8d1134b1b6e7,
         type: 3}
       propertyPath: m_LocalPosition.x

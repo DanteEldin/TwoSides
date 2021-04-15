@@ -456,6 +456,8 @@ MonoBehaviour:
     type: 3}
   baseSprite: {fileID: 21300000, guid: 1126af14c3388af4dba48cb24e1faef8, type: 3}
   attackSprite: {fileID: 21300000, guid: 305306a2592fde74b8de77aa51c83d80, type: 3}
+  sfxShoot: {fileID: 11400000, guid: d7f5e77f74a45ca4595664d31cce249d, type: 2}
+  sfxExplode: {fileID: 11400000, guid: a677e88085dd4274f9aeb3a72bffeb32, type: 2}
 --- !u!114 &553375141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -662,6 +664,11 @@ PrefabInstance:
         type: 3}
       propertyPath: nextSceneName
       value: TITLE_Swe_Forest
+      objectReference: {fileID: 0}
+    - target: {fileID: 5647031896427060629, guid: 7d2dcccb29cd08c4c85e8d1134b1b6e7,
+        type: 3}
+      propertyPath: playAudio
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7652215881501492514, guid: 7d2dcccb29cd08c4c85e8d1134b1b6e7,
         type: 3}
@@ -917,6 +924,7 @@ MonoBehaviour:
     type: 3}
   baseSprite: {fileID: 21300000, guid: 9258f80918cef844b85dbb70b58ee477, type: 3}
   attackSprite: {fileID: 21300000, guid: 30ef985c97d5191429105f0262e39f09, type: 3}
+  sfxShoot: {fileID: 11400000, guid: af61e238591ac84479e23631fe07eee1, type: 2}
 --- !u!212 &752470439
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1338,6 +1346,11 @@ PrefabInstance:
         type: 3}
       propertyPath: destroyAfterTime
       value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5647031896427060629, guid: 7d2dcccb29cd08c4c85e8d1134b1b6e7,
+        type: 3}
+      propertyPath: playAudio
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7652215881501492514, guid: 7d2dcccb29cd08c4c85e8d1134b1b6e7,
         type: 3}

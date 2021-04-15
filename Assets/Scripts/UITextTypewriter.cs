@@ -17,6 +17,9 @@ public class UITextTypewriter : MonoBehaviour
 	public int finalTextNumber = 4;
 	public string nextSceneName;
 
+	public bool playAudio = true;
+	public AudioHandler typeAudio;
+
 	Text txt;
 	string story;
 
@@ -67,6 +70,13 @@ public class UITextTypewriter : MonoBehaviour
 		foreach (char c in story)
 		{
 			txt.text += c;
+			if (playAudio)
+            {
+				if (c != ' ')
+                {
+					typeAudio.PlayAudio();
+				}
+			}
 			yield return new WaitForSeconds(waitBetweenChars);
 		}
 		if (destroyAfterTime > 0)

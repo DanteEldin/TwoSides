@@ -101,6 +101,7 @@ MonoBehaviour:
   lifetime: 1.5
   markPrefab: {fileID: 5275777671164567529, guid: 8b93bb29663d23d489940a2b52253137,
     type: 3}
+  sfxHit: {fileID: 11400000, guid: 68272eecf79ad884bba63b98b39ed0fe, type: 2}
 --- !u!50 &7105708894388617611
 Rigidbody2D:
   serializedVersion: 4

@@ -377,6 +377,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ballType: 2
+  sfxSinkBall: {fileID: 0}
+  sfxMissBall: {fileID: 0}
 --- !u!1 &260140087
 GameObject:
   m_ObjectHideFlags: 0
@@ -952,6 +954,8 @@ MonoBehaviour:
   methodTextNumber: -1
   finalTextNumber: 4
   nextSceneName: TITLE_Au_Party
+  playAudio: 0
+  typeAudio: {fileID: 0}
 --- !u!1 &605116932
 GameObject:
   m_ObjectHideFlags: 0
@@ -1277,6 +1281,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ballType: 1
+  sfxSinkBall: {fileID: 11400000, guid: 388e6841711744f4287cf37ff6469a46, type: 2}
+  sfxMissBall: {fileID: 11400000, guid: 017e423f67a84fd49b598c69d2b7833b, type: 2}
 --- !u!1 &785701272
 GameObject:
   m_ObjectHideFlags: 0
@@ -1742,6 +1748,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ballType: 0
+  sfxSinkBall: {fileID: 11400000, guid: 388e6841711744f4287cf37ff6469a46, type: 2}
+  sfxMissBall: {fileID: 11400000, guid: 017e423f67a84fd49b598c69d2b7833b, type: 2}
 --- !u!50 &1043655885
 Rigidbody2D:
   serializedVersion: 4
@@ -2035,6 +2043,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ballType: 0
+  sfxSinkBall: {fileID: 11400000, guid: 388e6841711744f4287cf37ff6469a46, type: 2}
+  sfxMissBall: {fileID: 11400000, guid: 017e423f67a84fd49b598c69d2b7833b, type: 2}
 --- !u!50 &1328761351
 Rigidbody2D:
   serializedVersion: 4
@@ -2249,6 +2259,8 @@ MonoBehaviour:
   methodTextNumber: -1
   finalTextNumber: 4
   nextSceneName: 
+  playAudio: 0
+  typeAudio: {fileID: 0}
 --- !u!1 &1995180883
 GameObject:
   m_ObjectHideFlags: 0
@@ -2610,6 +2622,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 374094898}
     m_Modifications:
+    - target: {fileID: 744820458769483295, guid: 6486b6b1a1380294c92012ff5f3536e8,
+        type: 3}
+      propertyPath: playAudio
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1394725670595865370, guid: 6486b6b1a1380294c92012ff5f3536e8,
         type: 3}
       propertyPath: m_Name
@@ -2764,6 +2781,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: cheer text 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5647031896427060629, guid: 7d2dcccb29cd08c4c85e8d1134b1b6e7,
+        type: 3}
+      propertyPath: playAudio
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7652215881501492514, guid: 7d2dcccb29cd08c4c85e8d1134b1b6e7,
         type: 3}

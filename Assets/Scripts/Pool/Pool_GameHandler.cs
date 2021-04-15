@@ -34,12 +34,6 @@ public class Pool_GameHandler : MonoBehaviour
         ballsToSink = baseBallsToSink;
     }
 
-    // Update
-    void Update()
-    {
-        
-    }
-
     //Reset Vars
     void ResetVars()
     {

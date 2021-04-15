@@ -31,6 +31,7 @@ public class League_Opponent : MonoBehaviour
     //Components
     Rigidbody2D rbody;
     SpriteRenderer spriteRenderer;
+    [SerializeField] AudioHandler sfxShoot;
 
 
     //Start
@@ -96,6 +97,8 @@ public class League_Opponent : MonoBehaviour
 
             //change sprite
             spriteRenderer.sprite = attackSprite;
+            //audio
+            sfxShoot.PlayAudio();
         }
     }
 

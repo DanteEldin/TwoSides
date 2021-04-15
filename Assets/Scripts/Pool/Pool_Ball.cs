@@ -14,6 +14,8 @@ public class Pool_Ball : MonoBehaviour
     //Components
     Rigidbody2D rbody;
     Pool_GameHandler gameHandler;
+    [SerializeField] AudioHandler sfxSinkBall;
+    [SerializeField] AudioHandler sfxMissBall;
 
     #region EventListeners
 
@@ -75,6 +77,8 @@ public class Pool_Ball : MonoBehaviour
                     //cheer text
                     TextHandler.TextWrite?.Invoke(TextHandler.currentCheerText);
                     TextHandler.currentCheerText++;
+                    //audio
+                    sfxSinkBall.PlayAudio();
                 }
                 //8-ball
                 else if (ballType == 1)
@@ -87,6 +91,8 @@ public class Pool_Ball : MonoBehaviour
                         Pool_GameHandler.PoolGameReset?.Invoke();
                         //cheer text
                         TextHandler.TextWrite?.Invoke(gameHandler.eightBallCheerText);
+                        //audio
+                        sfxMissBall.PlayAudio();
                     }
                     //win game
                     else
@@ -94,6 +100,8 @@ public class Pool_Ball : MonoBehaviour
                         Destroy(gameObject);
                         //cheer text
                         TextHandler.TextWrite?.Invoke(gameHandler.winCheerText);
+                        //audio
+                        sfxSinkBall.PlayAudio();
                     }
                 }
                 //white ball

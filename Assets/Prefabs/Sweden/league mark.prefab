@@ -95,3 +95,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 1
+  sfxJump: {fileID: 11400000, guid: 0653c2a11ef829f4d93a0ab4173ba30a, type: 2}
